@@ -152,13 +152,39 @@ main {
   width: 50%;
 }
 
+.formitem .small select  {
+  width: 50%;
+  padding: 10px;
+}
+
 .form-check {
   padding-top: 10px;
 }
 
 
+/* 住所の部分は間隔をつめる */
+.address dt {
+  margin-top: 15px;
+  font-size: 14px;
+}
+
+.address {
+  padding-bottom: 15px;
+}
+
+/* 個人情報保護*/
+.formitem .comment {
+  padding-top: 30px;
+}
+
 
 /* 送信ボタン */
+
+.formitem .center {
+  text-align: center;
+  padding-top: 30px;
+}
+
 .submit-btn {
   border: 1px solid #ffba4c;
   color: #fff;
